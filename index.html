@@ -5,131 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JevannPedia - Lapak Gaming Terlengkap</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- HEADER -->
-    <div id="header-container"></div>
-
-    <!-- GAMING HERO -->
-    <section class="gaming-hero">
-        <div class="hero-container">
-            <h1 class="hero-title">TOP-UP GAME & VOUCHER<br>TERBAIK DI JEVANNPEDIA</h1>
-            <p class="hero-subtitle">Dengan sistem otomatis 24/7, proses cepat kurang dari 3 menit, dan garansi 100% aman. Top up Mobile Legends, Free Fire, PUBG, Steam Wallet, Google Play, dan banyak lagi.</p>
+    <header class="gaming-header">
+        <div class="header-top">
+            <a href="index.html" class="logo-gaming">
+                <div class="logo-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="logo-text">JEVANN<span>PEDIA</span></div>
+            </a>
             
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-icon">
+            <div class="header-actions">
+                <div class="gaming-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Cari game, voucher, atau produk..." id="searchInput">
+                </div>
+                
+                <div class="user-menu">
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <div class="cart-gaming" id="openCart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="cart-count">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NAVIGASI LENGKAP -->
+        <nav class="gaming-nav">
+            <div class="nav-container">
+                <a href="#" class="nav-item active" data-tab="home">
+                    <i class="fas fa-home"></i> Beranda
+                </a>
+                <a href="#" class="nav-item" data-tab="topup">
+                    <i class="fas fa-bolt"></i> Top Up Game
+                </a>
+                <a href="#" class="nav-item" data-tab="voucher">
+                    <i class="fas fa-ticket-alt"></i> Voucher
+                </a>
+                <a href="#" class="nav-item" data-tab="accounts">
+                    <i class="fas fa-user-shield"></i> Akun Game
+                </a>
+                <a href="#" class="nav-item" data-tab="items">
+                    <i class="fas fa-gem"></i> Item Game
+                </a>
+                <a href="#" class="nav-item" data-tab="promo">
+                    <i class="fas fa-gift"></i> Promo
+                </a>
+                <a href="#" class="nav-item" data-tab="help">
+                    <i class="fas fa-headset"></i> Bantuan
+                </a>
+                <a href="#" class="nav-item" data-tab="contact">
+                    <i class="fas fa-phone-alt"></i> Kontak
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <h1>TOP UP GAME <span class="highlight">TERMURAH</span></h1>
+                <p>Mobile Legends, Free Fire, PUBG, Valorant, Steam Wallet & 100+ Game Lainnya</p>
+                <div class="hero-stats">
+                    <div class="stat">
                         <i class="fas fa-bolt"></i>
+                        <div>
+                            <h3>50.000+</h3>
+                            <p>Transaksi</p>
+                        </div>
                     </div>
-                    <div class="stat-info">
-                        <h3>50.000+</h3>
-                        <p>Transaksi/Bulan</p>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
+                    <div class="stat">
                         <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h3>100%</h3>
+                            <p>Aman</p>
+                        </div>
                     </div>
-                    <div class="stat-info">
-                        <h3>100%</h3>
-                        <p>Aman & Terpercaya</p>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
+                    <div class="stat">
                         <i class="fas fa-clock"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3>24/7</h3>
-                        <p>Layanan Otomatis</p>
+                        <div>
+                            <h3>24/7</h3>
+                            <p>Otomatis</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- GAMING CATEGORIES -->
-    <section class="categories-section">
-        <h2 class="section-title"><i class="fas fa-layer-group"></i> KATEGORI POPULER</h2>
-        
-        <div class="categories-grid">
-            <a href="#" class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-mobile-alt"></i>
+        <!-- CATEGORIES -->
+        <section class="categories-section">
+            <h2><i class="fas fa-layer-group"></i> KATEGORI POPULER</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="mobile-legends">
+                    <i class="fab fa-android"></i>
+                    <h3>Mobile Legends</h3>
+                    <p>150+ Produk</p>
                 </div>
-                <div class="category-name">Mobile Games</div>
-                <div class="category-count">150+ Produk</div>
-            </a>
-            
-            <a href="#" class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-desktop"></i>
+                <div class="category-card" data-category="free-fire">
+                    <i class="fas fa-fire"></i>
+                    <h3>Free Fire</h3>
+                    <p>80+ Produk</p>
                 </div>
-                <div class="category-name">PC Games</div>
-                <div class="category-count">80+ Produk</div>
-            </a>
-            
-            <a href="#" class="category-card">
-                <div class="category-icon">
+                <div class="category-card" data-category="pubg">
+                    <i class="fas fa-crosshairs"></i>
+                    <h3>PUBG Mobile</h3>
+                    <p>60+ Produk</p>
+                </div>
+                <div class="category-card" data-category="valorant">
+                    <i class="fas fa-bomb"></i>
+                    <h3>Valorant</h3>
+                    <p>45+ Produk</p>
+                </div>
+                <div class="category-card" data-category="voucher">
                     <i class="fas fa-wallet"></i>
+                    <h3>E-Wallet</h3>
+                    <p>25+ Produk</p>
                 </div>
-                <div class="category-name">E-Wallet</div>
-                <div class="category-count">25+ Produk</div>
-            </a>
-            
-            <a href="#" class="category-card">
-                <div class="category-icon">
+                <div class="category-card" data-category="streaming">
                     <i class="fas fa-film"></i>
+                    <h3>Streaming</h3>
+                    <p>15+ Produk</p>
                 </div>
-                <div class="category-name">Streaming</div>
-                <div class="category-count">15+ Produk</div>
-            </a>
-            
-            <a href="#" class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-user-secret"></i>
-                </div>
-                <div class="category-name">Akun Game</div>
-                <div class="category-count">200+ Produk</div>
-            </a>
-            
-            <a href="#" class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-gem"></i>
-                </div>
-                <div class="category-name">Item Game</div>
-                <div class="category-count">300+ Produk</div>
-            </a>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- GAMING PRODUCTS -->
-    <section class="products-section">
-        <div class="products-header">
-            <h2 class="section-title"><i class="fas fa-fire"></i> PRODUK TERLARIS</h2>
+        <!-- PRODUCTS SECTION -->
+        <section class="products-section">
+            <div class="section-header">
+                <h2><i class="fas fa-fire"></i> PRODUK TERLARIS</h2>
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="mobile-legends">ML</button>
+                    <button class="filter-btn" data-filter="free-fire">FF</button>
+                    <button class="filter-btn" data-filter="pubg">PUBG</button>
+                    <button class="filter-btn" data-filter="valorant">Valorant</button>
+                    <button class="filter-btn" data-filter="voucher">Voucher</button>
+                </div>
+            </div>
             
-            <div class="filter-tabs">
-                <div class="filter-tab active" data-filter="all">Semua</div>
-                <div class="filter-tab" data-filter="mobile-legends">Mobile Legends</div>
-                <div class="filter-tab" data-filter="free-fire">Free Fire</div>
-                <div class="filter-tab" data-filter="pubg">PUBG</div>
-                <div class="filter-tab" data-filter="valorant">Valorant</div>
-                <div class="filter-tab" data-filter="voucher">Voucher</div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products akan di-load dari JavaScript -->
+            </div>
+        </section>
+
+        <!-- CART MODAL -->
+        <div class="cart-modal" id="cartModal">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-cart"></i> Keranjang</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Keranjang kosong</p>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">Rp 0</span>
+                </div>
+                <button class="checkout-btn" id="checkoutBtn">
+                    <i class="fas fa-lock"></i> Checkout
+                </button>
             </div>
         </div>
-        
-        <div class="products-grid" id="productsGrid">
-            <!-- Produk akan di-load dari JavaScript -->
-        </div>
-    </section>
-
-    <!-- CART MODAL -->
-    <div id="cart-container"></div>
+    </main>
 
     <!-- FOOTER -->
-    <div id="footer-container"></div>
+    <footer class="gaming-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>JEVANNPEDIA</h3>
+                <p>Lapak gaming terpercaya sejak 2023. Proses cepat, aman, dan harga terjangkau.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Layanan</h3>
+                <ul>
+                    <li><a href="#">Top Up Game</a></li>
+                    <li><a href="#">Pembelian Voucher</a></li>
+                    <li><a href="#">Jual Akun Game</a></li>
+                    <li><a href="#">Tukar Kode Game</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Bantuan</h3>
+                <ul>
+                    <li><a href="#">Cara Pembelian</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Pembayaran</h3>
+                <div class="payment-methods">
+                    <span>DANA</span>
+                    <span>OVO</span>
+                    <span>GOPAY</span>
+                    <span>QRIS</span>
+                    <span>Bank Transfer</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 JevannPedia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- NOTIFICATION -->
+    <div id="notification"></div>
 
     <script src="script.js"></script>
 </body>
