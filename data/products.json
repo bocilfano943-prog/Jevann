@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Mobile Legends 86 Diamond",
+        "price": 25000,
+        "originalPrice": 30000,
+        "category": "mobile-legends",
+        "icon": "fas fa-gem",
+        "badge": "TERLARIS",
+        "sold": 1250,
+        "description": "Diamond Mobile Legends 86 biji. Proses instan kurang dari 3 menit."
+    },
+    {
+        "id": 2,
+        "name": "Free Fire 70 Diamond",
+        "price": 12000,
+        "originalPrice": 15000,
+        "category": "free-fire",
+        "icon": "fas fa-fire",
+        "badge": "PROMO",
+        "sold": 890,
+        "description": "Diamond Free Fire 70 biji. Proses otomatis 24 jam."
+    },
+    {
+        "id": 3,
+        "name": "PUBG Mobile 60 UC",
+        "price": 15000,
+        "originalPrice": 18000,
+        "category": "pubg",
+        "icon": "fas fa-crosshairs",
+        "badge": "BARU",
+        "sold": 450,
+        "description": "Unknown Cash (UC) PUBG Mobile 60 biji."
+    },
+    {
+        "id": 4,
+        "name": "Valorant 125 VP",
+        "price": 40000,
+        "originalPrice": 45000,
+        "category": "valorant",
+        "icon": "fas fa-bomb",
+        "badge": "",
+        "sold": 320,
+        "description": "Valorant Points 125 untuk beli skin dan battlepass."
+    },
+    {
+        "id": 5,
+        "name": "Steam Wallet Rp 50.000",
+        "price": 48000,
+        "originalPrice": 50000,
+        "category": "voucher",
+        "icon": "fas fa-steam",
+        "badge": "HEMAT",
+        "sold": 760,
+        "description": "Voucher Steam Wallet senilai Rp 50.000."
+    },
+    {
+        "id": 6,
+        "name": "Google Play Voucher Rp 100.000",
+        "price": 95000,
+        "originalPrice": 100000,
+        "category": "voucher",
+        "icon": "fab fa-google-play",
+        "badge": "",
+        "sold": 540,
+        "description": "Voucher Google Play Store senilai Rp 100.000."
+    },
+    {
+        "id": 7,
+        "name": "Mobile Legends 172 Diamond",
+        "price": 50000,
+        "originalPrice": 55000,
+        "category": "mobile-legends",
+        "icon": "fas fa-gem",
+        "badge": "TERLARIS",
+        "sold": 980,
+        "description": "Diamond Mobile Legends 172 biji. Untuk battlepass atau skin legend."
+    },
+    {
+        "id": 8,
+        "name": "Akun Valorant Rank Gold",
+        "price": 120000,
+        "originalPrice": 150000,
+        "category": "valorant",
+        "icon": "fas fa-user-secret",
+        "badge": "DISKON",
+        "sold": 45,
+        "description": "Akun Valorant rank Gold dengan beberapa skin epic."
+    },
+    {
+        "id": 9,
+        "name": "Genshin Impact 330 Genesis Crystal",
+        "price": 80000,
+        "originalPrice": 90000,
+        "category": "voucher",
+        "icon": "fas fa-cloud",
+        "badge": "BARU",
+        "sold": 210,
+        "description": "Genesis Crystal untuk Genshin Impact."
+    },
+    {
+        "id": 10,
+        "name": "Spotify Premium 3 Bulan",
+        "price": 45000,
+        "originalPrice": 60000,
+        "category": "voucher",
+        "icon": "fab fa-spotify",
+        "badge": "HEMAT",
+        "sold": 320,
+        "description": "Voucher Spotify Premium untuk 3 bulan."
+    },
+    {
+        "id": 11,
+        "name": "Call of Duty Mobile 80 CP",
+        "price": 20000,
+        "originalPrice": 25000,
+        "category": "mobile-legends",
+        "icon": "fas fa-crosshairs",
+        "badge": "",
+        "sold": 180,
+        "description": "CP untuk Call of Duty Mobile."
+    },
+    {
+        "id": 12,
+        "name": "Netflix Premium 1 Bulan",
+        "price": 55000,
+        "originalPrice": 65000,
+        "category": "voucher",
+        "icon": "fas fa-film",
+        "badge": "TERLARIS",
+        "sold": 420,
+        "description": "Akun Netflix Premium untuk 1 bulan."
+    }
+]
